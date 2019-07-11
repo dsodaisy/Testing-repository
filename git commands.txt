@@ -27,6 +27,7 @@ merge conflict:
 >>>>>>
 
 * git clone --branch branch1 https://github.com/dsodaisy/Testing-repository.git
+* git config --global user.email daisydsouza95@yahoo.com
 
 
 https://guides.github.com/activities/hello-world/
