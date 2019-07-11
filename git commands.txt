@@ -26,6 +26,7 @@ merge conflict:
 	.....    // same line that someone else changed
 >>>>>>
 
+* git clone --branch branch1 https://github.com/dsodaisy/Testing-repository.git
 
 
 https://guides.github.com/activities/hello-world/
