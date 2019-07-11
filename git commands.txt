@@ -1,0 +1,32 @@
+git clone http.... // to clone repository from server to local machine
+git status //shows whats different between local machine and server
+git add local-machine-file name //adds your modified files to the queue to be committed later                     ----> local machine
+git add . // adds all files in your current directory to queue
+git add -A //adds all changes in all directories to the queue
+git commit -m // -m -> message, commits the file that have been added & creates a new revision with a log (gives version number)   ----> local machine
+git commit -a //adds & commits the file.   ----> local machine
+git push //to sync any changes from local repository to the repository. (update on the server)
+git pull // to sync any changes to the local repository from remote repository 
+git //shows all git commands
+git branch //shows all branches on repository
+git branch <name> //creates a copy of current branch you are in and name it <name>
+git checkout <name> //to switch to a branch named <name>
+git merge <name> // to merge all new updates in a branch
+
+1. git pull
+2. make changes locally
+3. git add  // for each file
+4. git commit  // for each file
+
+merge conflict:
+---------------
+<<<<<HEAD   
+	.....    //line that we changed
+=====
+	.....    // same line that someone else changed
+>>>>>>
+
+
+
+https://guides.github.com/activities/hello-world/
+https://guides.github.com/introduction/flow/
